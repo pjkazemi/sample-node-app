@@ -1,3 +1,4 @@
+# PJK - Plan file to play with how Habitat builds a package 
 # The plan file tells Habitat how to build a package.
 #
 # In this plan, we're asking Habitat to provide us with Node.js and NPM
@@ -14,7 +15,7 @@
 
 pkg_name=sample-node-app
 pkg_origin=pjkazemi
-pkg_version="1.1.0"
+pkg_version="1.2.0"
 pkg_deps=(core/node)
 
 # Habitat provides you with a number of built-in "callbacks" to use
